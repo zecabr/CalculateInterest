@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\CalculateInterest.Domain.Service\CalculateInterest.Domain.Service.csproj" />
+    <ProjectReference Include="..\..\Domain\CalculateInterest.Domain\CalculateInterest.Domain.csproj" />
+    <ProjectReference Include="..\CalculateInterest.Services\CalculateInterest.Services.csproj" />
+  </ItemGroup>
+
+</Project>
